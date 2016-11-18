@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A9719081DDE695A000A543B /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9719071DDE695A000A543B /* VideoVC.swift */; };
+		4A97190A1DDE6A31000A543B /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9719091DDE6A31000A543B /* MusicCell.swift */; };
+		4A97190C1DDE6B3A000A543B /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A97190B1DDE6B3A000A543B /* MusicModel.swift */; };
+		4AC5D1CE1DDE0F3A00185E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC5D1CD1DDE0F3A00185E0D /* AppDelegate.swift */; };
+		4AC5D1D01DDE0F3A00185E0D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC5D1CF1DDE0F3A00185E0D /* MainVC.swift */; };
+		4AC5D1D31DDE0F3A00185E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5D1D11DDE0F3A00185E0D /* Main.storyboard */; };
+		4AC5D1D51DDE0F3A00185E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5D1D41DDE0F3A00185E0D /* Assets.xcassets */; };
+		4AC5D1D81DDE0F3A00185E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5D1D61DDE0F3A00185E0D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A9719071DDE695A000A543B /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		4A9719091DDE6A31000A543B /* MusicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
+		4A97190B1DDE6B3A000A543B /* MusicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		4AC5D1CA1DDE0F3A00185E0D /* ParyRockMansion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParyRockMansion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC5D1CD1DDE0F3A00185E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AC5D1CF1DDE0F3A00185E0D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		4AC5D1D21DDE0F3A00185E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AC5D1D41DDE0F3A00185E0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AC5D1D71DDE0F3A00185E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AC5D1D91DDE0F3A00185E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AC5D1C71DDE0F3A00185E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AC5D1C11DDE0F3A00185E0D = {
+			isa = PBXGroup;
+			children = (
+				4AC5D1CC1DDE0F3A00185E0D /* ParyRockMansion */,
+				4AC5D1CB1DDE0F3A00185E0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AC5D1CB1DDE0F3A00185E0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AC5D1CA1DDE0F3A00185E0D /* ParyRockMansion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AC5D1CC1DDE0F3A00185E0D /* ParyRockMansion */ = {
+			isa = PBXGroup;
+			children = (
+				4AC5D1E11DDE13EF00185E0D /* Controller */,
+				4AC5D1E01DDE13EB00185E0D /* View */,
+				4AC5D1DF1DDE13E200185E0D /* Model */,
+				4AC5D1CD1DDE0F3A00185E0D /* AppDelegate.swift */,
+				4AC5D1D11DDE0F3A00185E0D /* Main.storyboard */,
+				4AC5D1D61DDE0F3A00185E0D /* LaunchScreen.storyboard */,
+				4AC5D1D91DDE0F3A00185E0D /* Info.plist */,
+				4AC5D1D41DDE0F3A00185E0D /* Assets.xcassets */,
+			);
+			path = ParyRockMansion;
+			sourceTree = "<group>";
+		};
+		4AC5D1DF1DDE13E200185E0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A97190B1DDE6B3A000A543B /* MusicModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4AC5D1E01DDE13EB00185E0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A9719091DDE6A31000A543B /* MusicCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4AC5D1E11DDE13EF00185E0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4AC5D1CF1DDE0F3A00185E0D /* MainVC.swift */,
+				4A9719071DDE695A000A543B /* VideoVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AC5D1C91DDE0F3A00185E0D /* ParyRockMansion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC5D1DC1DDE0F3A00185E0D /* Build configuration list for PBXNativeTarget "ParyRockMansion" */;
+			buildPhases = (
+				4AC5D1C61DDE0F3A00185E0D /* Sources */,
+				4AC5D1C71DDE0F3A00185E0D /* Frameworks */,
+				4AC5D1C81DDE0F3A00185E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParyRockMansion;
+			productName = ParyRockMansion;
+			productReference = 4AC5D1CA1DDE0F3A00185E0D /* ParyRockMansion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AC5D1C21DDE0F3A00185E0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Emil Møller Lind";
+				TargetAttributes = {
+					4AC5D1C91DDE0F3A00185E0D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QR2S7DZA96;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4AC5D1C51DDE0F3A00185E0D /* Build configuration list for PBXProject "ParyRockMansion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AC5D1C11DDE0F3A00185E0D;
+			productRefGroup = 4AC5D1CB1DDE0F3A00185E0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AC5D1C91DDE0F3A00185E0D /* ParyRockMansion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AC5D1C81DDE0F3A00185E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC5D1D81DDE0F3A00185E0D /* LaunchScreen.storyboard in Resources */,
+				4AC5D1D51DDE0F3A00185E0D /* Assets.xcassets in Resources */,
+				4AC5D1D31DDE0F3A00185E0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AC5D1C61DDE0F3A00185E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9719081DDE695A000A543B /* VideoVC.swift in Sources */,
+				4AC5D1D01DDE0F3A00185E0D /* MainVC.swift in Sources */,
+				4AC5D1CE1DDE0F3A00185E0D /* AppDelegate.swift in Sources */,
+				4A97190C1DDE6B3A000A543B /* MusicModel.swift in Sources */,
+				4A97190A1DDE6A31000A543B /* MusicCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AC5D1D11DDE0F3A00185E0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC5D1D21DDE0F3A00185E0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AC5D1D61DDE0F3A00185E0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC5D1D71DDE0F3A00185E0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AC5D1DA1DDE0F3A00185E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AC5D1DB1DDE0F3A00185E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AC5D1DD1DDE0F3A00185E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QR2S7DZA96;
+				INFOPLIST_FILE = ParyRockMansion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Emilsen.ParyRockMansion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4AC5D1DE1DDE0F3A00185E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QR2S7DZA96;
+				INFOPLIST_FILE = ParyRockMansion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Emilsen.ParyRockMansion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AC5D1C51DDE0F3A00185E0D /* Build configuration list for PBXProject "ParyRockMansion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC5D1DA1DDE0F3A00185E0D /* Debug */,
+				4AC5D1DB1DDE0F3A00185E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC5D1DC1DDE0F3A00185E0D /* Build configuration list for PBXNativeTarget "ParyRockMansion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC5D1DD1DDE0F3A00185E0D /* Debug */,
+				4AC5D1DE1DDE0F3A00185E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AC5D1C21DDE0F3A00185E0D /* Project object */;
+}
